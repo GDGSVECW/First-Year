@@ -11,11 +11,11 @@ int main() {
 
     do {
         printf("Enter your guess: ");
-        scanf("%d", guess); 
+        scanf("%d", &guess); 
         attempts++;
 
         if (guess > number) {
-            printf("Too high! Try again\n") 
+            printf("Too high! Try again\n");
         } else if (guess < number) {
             printf("Too low! Try again.\n");
         } else {
