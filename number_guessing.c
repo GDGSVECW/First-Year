@@ -15,7 +15,6 @@ int main() {
         attempts++;
 
         if (guess > number) {
-            printf("Too high! Try again\n"); 
         } else if (guess < number) {
             printf("Too low! Try again.\n");
         } else {
