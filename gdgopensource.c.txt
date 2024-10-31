@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    float p,t,r,simpleintrest;
+    //p-principle,t-time,r-rate
+    printf("enter values of p,t,r : ");
+    scanf("%f %f %f",&p,&t,&r);
+    simpleintrest=(p*t*r)/100;
+    //formula
+    printf("simple intrest : %f",simpleintrest);
+    return 0;
+}
