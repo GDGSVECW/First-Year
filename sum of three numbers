@@ -1,0 +1,11 @@
+// this program is to find the sum of three numbers
+#include <stdio.h>
+int main()
+{
+int a,b,c,sum;
+printf("enter the values of a,b,c:");
+scanf("%d%d%d",&a,&b,&c);
+sum=a+b+c;
+printf("the sum of three numbers is %d",sum);
+return 0;
+}

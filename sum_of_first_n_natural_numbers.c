@@ -5,6 +5,9 @@ int main() {
     scanf("%d", &n); 
     for (int i = 1; i <= n; i++) 
         {
+    printf("Enter a positive integer: ");
+
+    for (int i = 1; i <= n; i++) {
         sum = sum + i;
     }
     printf("Sum of first %d natural numbers is %d", n, sum); 
